@@ -38,7 +38,9 @@ header a {
   text-decoration: none;
   color: white;
 }
-
+#projects header {
+  height: 50vh;
+}
 nav {
   background: white;
   display: flex;
