@@ -131,20 +131,7 @@ img {
 }
 
 @media (max-width: 480px) {
-  h1 {
-    font-size: 2em;
-  }
-  h2 {
-    font-size: 1.5em;
-    padding: 0.05em;
-    margin: 0.05em;
-  }
-  h3 {
-    font-size: 1em;
-  }
-  h4 {
-    font-size: 0.75em;
-  }
+
   #project-tile h3 {
     font-size: 0.75em;
   }
@@ -168,20 +155,6 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
     margin: 2rem auto;
-  }
-  h1 {
-    font-size: 2em;
-  }
-  h2 {
-    font-size: 1.5em;
-    padding: 0.05em;
-    margin: 0.05em;
-  }
-  h3 {
-    font-size: 1em;
-  }
-  h4 {
-    font-size: 0.75em;
   }
   #contact-links {
     display: grid;
