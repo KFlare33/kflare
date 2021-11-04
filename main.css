@@ -130,7 +130,7 @@ img {
   font-weight: normal;
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
 
   #project-tile h3 {
     font-size: 0.75em;
@@ -150,7 +150,7 @@ img {
   }
 }
 
-@media (max-width: 750px) {
+@media only screen and (max-width: 750px) {
   #tiles {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
