@@ -1,0 +1,67 @@
+body {
+  background-color: #D3D3D3
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 25%;
+  overflow-y: auto;
+  text-align: center;
+  background: #323031;
+}
+nav header {
+  color: #177e89;
+}
+nav a{
+  text-decoration: none;
+  color: #ef6351;
+  border-top: solid;
+  border-color: #D3D3D3;
+  background: #084c61;
+  margin: 0;
+  padding: 2em;
+  display: block;
+}
+nav a:hover {
+  background: #ef6351;
+  color: #084c61;
+}
+main {
+  display: block;
+  padding: 10px;
+  margin-left: 25%;
+  color: #084c61;
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+section li {
+  list-style-type: '- ';
+}
+
+#Next_Steps li {
+  list-style-type: none;
+  text-align: center;
+}
+#Next_Steps a {
+  color: #323031;
+}
+
+
+@media  
+  (max-width: 400px) 
+ {
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 10%;
+        width: 100%;
+    }
+}
