@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="stylesheet" href="tech.css">
+  </head>
+  <body>
+      <nav id="navbar">
+        <header><h1>CSS Intro Documentation</h1></header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Why_Use_CSS?">Why Use CSS?</a>
+        <a class="nav-link" href="#How_It_Works:_Basics">How It Works: Basics</a>
+        <a class="nav-link" href="#Selectors">Selectors</a>
+        <a class="nav-link" href="#How_To_Comment">How To Comment</a>
+        <a class="nav-link" href="#Next_Steps">Next Steps</a>
+      </nav>
+      <main id="main-doc">
+      <section id="Introduction" class="main-section">
+        <header>
+          <h2>Introduction</h2>
+        </header>
+          <p id="p_one">
+            CSS is a coding language that is used to style and design how a website looks to a user. CSS stands for Cascading Style Sheets. This page has been styled with CSS and dictates:  the background is gray and even why the words use a certain type face.
+          <ul>
+            <li>where the navigation bar sits</li>
+            <li>background color</li>
+            <li>color and style of text</li>
+            <li>layout of sections</li>
+            <li>display variations for different sized devices</li>
+            <li>and much more</li>
+          </ul>
+          </p>
+          <p id="p_two"></p>
+      </section>
+      <section id="Why_Use_CSS?" class="main-section">
+        <header>
+          <h2>Why Use CSS?</h2>
+        </header>
+          <p id="p_three">CSS gives design to the HTML body markup. While you can add design code straight to HTML, HTML as a language was never intended to include design. CSS makes working with large scale websites where design is the same on several different pages easier. Instead of adding the same code to several lines on several pages, you can simply change one line of code on a single page that refers to many areas of your website. This is achieved by using an external .css file that html files refer to for design markup perameters. </p>
+      </section>
+      <section id="How_It_Works:_Basics" class="main-section">
+        <header>
+          <h2>How It Works: Basics</h2>
+        </header>
+        <p id="p_four">CSS statements refer to different elements of html code and then declares what the design value for that element should be. Just like any language, understanding syntax allows you to learn CSS quickly. Each CSS statement uncludes a selector and a declartion, while the declaration states a property and value of that element. Below is an example of the basic syntax of CSS.</br> <code>selector {property: value;}</code></br> Inderstanding this basic syntax can help you understand the following example: </br> <code>body {background-color: blue;}</code> </br> Here we see that the background color property of the body element is assigned the value of blue. This would affect the background color of all body elements that use this CSS.</p>  
+        <p id="p_five">
+          We can expand on this syntac by adding more properties and values within the element, displayed below:
+          </br>
+<pre><code>body { background-color: blue;
+       color: gray; }</code></pre>
+</br> In this example, any body element will now have a blue background-color and any text within the body element will be colored gray.</p>
+        <p id="p_six">There is one catch to this syntax in CSS. Remember CSS stands for Cascading Style Sheets. So the computer reads this code by cascading it's way down the page. Meaning it assigns design as it reads it. So if you state that the background-color is blue and then state again further down the page that the background-color is pink, the computer will act on the last thing it read. So the background-color would be pink. In the below example, what color would the background-color of a paragraph element be? Orange or Red?</br><pre><code>body { background-color: red;
+       color: gray; }
+p    { background-color: orange;
+       color: white; }</code></pre></br>You got it! The background-color would be orange and (if you noticed) it would also have white text within the paragraph. However, everything else in the body would have a background-color of red and text would appear gray.</p>
+      </section>
+      <section id="Selectors" class="main-section">
+        <header>
+          <h2>Selectors</h2>
+        </header>
+          <p id="p_seven">What if you only want to change the text color of certain paragraphs? This is where the different selector options come in. You can select different levels of html code. For instance let's say you want to style all <code><p></code> elements with the <code>id="green-paragraphs"</code> The CSS for this would look like: <code>p #green-paragraphs { background-color: green; }</code> Check below to see how to select different options: 
+        <ul>
+          <li>id=<code>#id-name</code></li>
+          <li>class=<code>.class_name</code></li>
+          <li>certain class of paragraphs<code>p.this_class</code></li>
+          <li>all elements of a page<code>*</code></li>
+          <li>a group of elements<code>p, h1, h3</code></li>
+        </ul></p>
+          <p id="p_eight"></p>
+      </section>
+      <section id="How_To_Comment" class="main-section">
+        <header>
+          <h2>How To Comment</h2>
+        </header>
+          <p id="p_nine">Just like any other language, when writing code it is best practice to leave comments for yourself and others. This makes it easier to read CSS and understand what was intended. It's also useful to leave notes while you work out a problem you may be trying to solve. In CSS you comment by adding /* before your text and */. This also works for multiple lines of comments</br><code>/* This is a comment example. Come back to this when you've thought of a better example */</code></p>
+      </section>
+<section id="Next_Steps" class="main-section">
+        <header>
+          <h2>Next Steps</h2>
+        </header>
+          <p id="p_nine">Now that you have the basics down, you can dive right in to learning more about CSS. Here are some great resources to learning more about how to style pages using CSS:
+  <ul>
+    <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/">Responsive Web Design by Free Code Camp</a></li>
+    <li><a href="https://www.w3schools.com/css/default.asp">CSS Turtorial by w3school</a></li>
+    <li><a href="https://www.codecademy.com/learn/learn-css">Learn CSS by Codecademy</a></li>
+  </ul></p>
+      </section>
+    </main>
+  </body>
+</html>
