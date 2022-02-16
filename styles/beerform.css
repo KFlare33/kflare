@@ -1,0 +1,14 @@
+body {
+    background: orange;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/25d45014-8cc3-4c98-b02c-5a0cf3a55ddd/dcybyhy-6ef54a10-6b5f-4ca2-853a-342655df2403.png/v1/fill/w_900,h_876,strp/glass_of_beer_on_a_transparent_background_by_prussiaart_dcybyhy-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODc2IiwicGF0aCI6IlwvZlwvMjVkNDUwMTQtOGNjMy00Yzk4LWIwMmMtNWEwY2YzYTU1ZGRkXC9kY3lieWh5LTZlZjU0YTEwLTZiNWYtNGNhMi04NTNhLTM0MjY1NWRmMjQwMy5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.0oLS2X5OaVo0L5YCctIJJVqhFIfjC8b6b4vZDfswZvk);
+    background-repeat: no-repeat;
+      background-position: center center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    margin: .5em;
+  }
+  

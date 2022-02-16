@@ -1,0 +1,62 @@
+<DOCTYPE html>
+    <html>
+      <head>
+        <link rel="stylesheet" type="text/css" href="../styles/beerform.css">
+      <style>
+        body{
+        text-align: center;
+      }
+        #main {
+          margin: auto;
+        }
+      </style>
+      </head>
+      <body>
+        <div id="main">
+          <h1 id="title">Beer Desires</h1>
+          <p id="description">
+          Fill out this form to let us know how much you like beer and what you like about it.</p>
+          <form id="survey-form">
+            <label for="name" id="name-label">What is your name? <input id="name" type="text" placeholder="Full Name" required></label>
+            
+            <label for="email" id="email-label">What is your email?<input id="email" type="email" placeholder="example@gmail.com" required></label>
+        
+            <label for="number" id="number-label">On a scale of 1-100, how much do you like beer? <input id="number" type="number" min="0" max="100" placeholder="100"></label>
+        
+            <label for="dropdown" id="dropdown-label">What is your favorite basic beer style?<select id="dropdown">
+              <option value="none">---Select from the Following---</option>
+              <option value="Lager">Light Lager</option>
+              <option value="Belgian">Belgian Ale</option>
+                    <option value="Wheat">Wheat Ale</option>
+                  <option value="Pale">Pale Ale</option>
+                    <option value="IPA">India Pale Ale</option>
+                      <option value="Brown">Brown Ale</option>
+                      <option value="Porter">Porter</option>
+                      <option value="Stout">Stout</option>
+                        <option value="Sour">Sour</option>
+              </select></label>
+            
+           
+        <h3>What's your favorite part of drinking beer?</h3>
+            <label for="flavor"><input type="radio" id="flavor" name="favorite" value="flavor"> Flavor</label>
+             <label for="aroma"> <input type="radio" id="aroma" name="favorite" value="aroma">Aroma</label>
+              <label for="bubbles"><input type="radio" id="bubbles" name="favorite" value="bubbles">Fizzy Bubbles</label>
+              <label for="alcohol"><input type="radio" id="alcohol" name="favorite" value="alcohol">Alcohol Affects</label>
+    
+      <h3>Where do you enjoy drinking beer the most?</h3>
+           <label for="home"><input type="radio" id="home" name="location" value="home">At Home</label>
+              <label for="outside"><input type="radio" id="outside" name="location" value="outside">Outside</label>
+              <label for="bar"><input type="radio" id="bar" name="location" value="bar">At the Bar</label>
+              <label for="friend"><input type="radio" id="friend" name="location" value="friend">Next to a Friend</label>
+        <h3>Check all of your favorite flavors found in beer:</h3>
+        <label class="checks" for="bread"><input id="bread" type="checkbox" name="chiggitycheck" value="bready">Bready</label>
+        <label for="roast"><input id="roast" type="checkbox" name="chiggitycheck" value="roast">Roasty</label>
+        <label for="coco"><input id="coco" type="checkbox" name="chiggitycheck" value="coco">Chocolate</label>
+        <label for="wheat"><input id="wheat" type="checkbox" name="chiggitycheck" value="wheat">Wheat</label>
+      </br><label for="comments">Any additional things you like about beer? Have any Beer Sonnats or Haikus?</br><textarea id="comments" type="text-area" placeholder="How I love Beer. Let me count the ways..."></textarea></label>
+      </br><button type="submit" id="submit">Submit</button>
+          </form>
+        </div>
+      </body>
+    </html>
+    

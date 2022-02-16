@@ -1,0 +1,56 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../styles/pallet.css">
+    <style src="../js/pallet.js"></style>
+</head>
+<body>
+  <div id="container">
+    <h1>Bottling Line Run</br> Pallet Tracker</h1>
+  <div class="btl_brand">
+    Brand:
+    <select id="start_brand">
+      <option value="blank">------</option>
+    </select>
+  </div>
+  <div class="btl_type">
+    Type:
+    <select id="start_type">
+      <option value="blank">------</option>
+    </select>
+  </div>
+  <div class="btl_tank">
+    Tank:
+    <select id="start_tank">
+      <option value="blank">------</option>
+    </select>
+  </div>
+  <div id="log">Pallet List:
+    </br>
+  </div>
+  <button id="start_run">Start Run</button>
+  <div id="run_buttons" class="hidden">
+    <button id="add_pallet">Complete Pallet</button>
+    <button id="delete_pallet" class="hidden">Delete Last Pallet</button>
+    <button id="pause_run">Pause Run</button>
+    <button id="restart_run" class="hidden">Restart Run</button>
+    <button id="last_pallet" class="hidden">Last Pallet</button>
+    <div>
+      <div id="last_pallet_info" class="hidden">
+        How many cases on last pallet?: <input id="lastPcount" class="last_count" type="number" maxlength="3" value=""/> 
+        Lab: <input id="" class="lab" type="number" maxlength="3" value=""/> 
+        Scrap/Low Fills: <input id="" class="scrap" type="number" maxlength="3" value=""/> 
+        Quarentine: <input id="" class="q01" type="number" maxlength="4" value=""/> 
+        <div id="sum_section">
+          Total Amount: <span id="sum"></span> 
+          Amount accurate? <input type="checkbox" value="" />
+        </div>
+      </div>
+      <button id="switch_brand" class="hidden">Switch Brand</button>
+      <button id="switch_type" class="hidden">Switch Type</button>
+      <button id="switch_tank" class="hidden">Switch Tank</button>
+      <button id="start_next" class="hidden">Start Next Run</button>
+      <button id="end_run" class="hidden">End Line's Run</button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+
+/* color pallete- 
+Yellow: #F8E104;
+Grey: #AAAAA0;
+Black: #020202;
+Purple: #7B4B94;
+Blue: #0075A2;
+*/
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+    height: 100%;
+    width: 100%;
+    background-color: #0075A2;
+    color: #020202;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #0075A2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    position: sticky;
+    top: 0;
+    min-height: 150px;
+  }
+  
+  img {
+        max-width: 10%;
+        display: block;
+        width: auto;
+        height: auto;
+        flex-shrink: 1;
+        align-self: flex-start;
+        min-height: 150px;
+        min-width: 150px;
+  }
+  
+  header h1{
+        flex-shrink: 2;
+        align-self: center;
+        justify-self: stretch;
+  }
+  
+  #nav-bar { 
+    display: flex;
+    flex-direction: row;
+    align-self: end;
+  }
+  
+  #nav-bar a {
+    margin: 1px;  
+  }
+  
+  header ul {
+    list-style-type: none;
+  }
+  
+  li {
+    margin: 1px;
+  }
+  
+  header a{
+    text-decoration: none;
+    border-style: solid;
+    padding: .5em;
+    color: black;
+  }
+  
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8E104;
+  }
+  
+  section {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #features {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #things {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  section ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+  }
+  
+  section li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    border-style: solid;
+    padding: 2em;
+  }
+  
+  #prices {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contact {
+    padding: 1em;
+    overflow-wrap: normal;
+    width: 40%;
+    text-align: center;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: #AAAAA0;
+  }
+  @media (max-width: 100px){
+    
+  }
+  @media (max-height: 100px) {
+    
+  }
